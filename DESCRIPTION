@@ -1,0 +1,26 @@
+Package: tece
+Title: Cool stuff (bro)
+Version: 0.0.0.9001
+Authors@R: c(
+    person(given = "Pippo",
+           family = "Baudo",
+           role = c("aut", "cre"),
+           email = "p.baudo@rug.nl"),
+    person(given = "Giovanni",
+           family = "Laudanno",
+           role = c("aut"),
+           email = "g.laudanno@rug.nl"),
+    person(given = "Pedro",
+           family = "Neves",
+           role = c("aut"),
+           email = "p.m.santos.neves@rug.nl"))
+Description: What the package does (one paragraph).
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
+Imports: 
+    testit,
+    devtools
+Suggests: 
+    testthat
